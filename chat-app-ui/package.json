@@ -4,9 +4,9 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "dev": "yarn codegen && next",
-    "build": "yarn codegen && next build",
-    "test": "yarn codegen && jest",
+    "dev": "next",
+    "build": "next build",
+    "test": "jest",
     "start": "next start"
   },
   "dependencies": {
