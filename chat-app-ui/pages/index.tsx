@@ -1,10 +1,11 @@
 import { initializeApollo } from '../lib/apollo'
+import ChatList from '../components/ChatList'
 
 export default function Index() {
 
   return (
     <div>
-      Home
+      <ChatList />
     </div>
   )
 }
